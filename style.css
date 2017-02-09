@@ -1,12 +1,15 @@
-body {font-family: arial;}
+body {font-family: arial;background-color: #e1e1e1;}
 
 form  { display: table;margin: 0 auto;}
-p     { display: table-row; padding-top: 10%;} /*padding not working*/
+p     { display: table-row; height:30px;}
 label { display: table-cell; }
-input { display: table-cell; font-size: 15px;}
+input { display: table-cell; font-size: 15px;margin-left:10px;width:95%;}
 
-select {width:100%;font-size: 15px;}
+select {width:95%;font-size: 15px;margin-left:10px;}
 
 h1{text-align: center;}
 
-button {width: 80%;background-color: black;color: #fff;margin-left: 60%;margin-top: 10%;font-size: 15px;}
+button {width: 90%;background-color: black;color: #fff;margin-left: 80%;margin-top: 10%;font-size: 15px;}
+
+.container {margin-top: 10%;}
+
