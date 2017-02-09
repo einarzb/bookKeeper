@@ -1,1 +1,12 @@
 body {font-family: arial;}
+
+form  { display: table;margin: 0 auto;}
+p     { display: table-row; padding-top: 10%;} /*padding not working*/
+label { display: table-cell; }
+input { display: table-cell; font-size: 15px;}
+
+select {width:100%;font-size: 15px;}
+
+h1{text-align: center;}
+
+button {width: 80%;background-color: black;color: #fff;margin-left: 60%;margin-top: 10%;font-size: 15px;}
